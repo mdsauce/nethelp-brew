@@ -4,7 +4,7 @@ class Nethelp < Formula
   url "https://github.com/mdsauce/nethelp/archive/v1.5.tar.gz"
   sha256 "28bd5b56d20bb54906283f423c0f505e51b06d5487fdc2d98e8857f7c8ba3ca5"
   depends_on "go" => :build
-  version "1.11"
+  version "1.5"
 
   def install
     system "go", "build", "-o", bin/"nethelp", "."
